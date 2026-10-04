@@ -1,0 +1,76 @@
+#navbar{
+    border:1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding:40px;
+    align-items: center;
+    color:white;
+    background-color: black;
+    position: fixed;
+    width: 100vw;
+    top:0px;
+}
+#login-navbar{
+  display: none;
+}
+#home-navbar{
+    background-color: transparent;
+    
+    display: flex;
+    justify-content: space-between;
+    padding:40px;
+    align-items: center;
+    color:white;
+    
+    position: fixed;
+    width: 100vw;
+    top:0px;
+}
+.navbar-h2{
+    font-family: var(--font-heading);
+    font-size: 30px;
+}
+.navbar-h2 i{
+    color:var(--gold-primary)
+}
+.navbar-list-items{
+    display: flex;
+    gap:15px;
+    font-family: var(--font-body);
+  
+}
+.navbar-list-items a{
+    text-decoration: none;
+    color:white;
+}
+.navbar-list-items a:hover{
+    opacity: 0.5;
+}
+.navbar-button{
+    display: flex;
+    gap:35px;
+    align-items: center;
+    font-family: var(--font-body);
+    
+}
+.navbar-button a{
+    text-decoration: none;
+    color:white;
+}
+.navbar-button a:hover{
+    opacity: 0.5;
+}
+.navbar-btn{
+    padding:10px 20px;
+    font-family: var(--font-body);
+    background-color: var(--gold-primary);
+    color:#000;
+    border-radius: 40px;
+    border: none;
+}
+.navbar-btn:hover{
+    cursor: pointer;
+    border:1px solid white;
+    color:white;
+    background: transparent;
+}

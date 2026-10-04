@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Dancing+Script:wght@400..700&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Manrope:wght@400;500;600;700;800&family=Moon+Dance&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap');
+
+*{
+   margin:0;
+   padding: 0;
+   box-sizing: border-box;
+}
+:root {
+  /* ================================
+     EVENTNEST COLOR PALETTE
+     ================================ */
+
+  /* Main Backgrounds */
+  --bg-primary: #080F16;
+  --bg-secondary: #0D1721;
+  --bg-surface: #101D29;
+  --bg-card: #132330;
+  --bg-input: #0B1620;
+
+  /* Brand Colors */
+  --gold-primary: #F4C46B;
+  --gold-secondary: #DDA94E;
+  --gold-light: #FFE0A3;
+
+  /* Text Colors */
+  --text-primary: #FFF6E8;
+  --text-secondary: #AAB5C0;
+  --text-muted: #71808D;
+  --text-dark: #080F16;
+
+  /* Borders */
+  --border-primary: #263847;
+  --border-light: #344957;
+
+  /* Status Colors */
+  --success: #4CAF88;
+  --warning: #E5A94B;
+  --danger: #E05A5A;
+  --info: #5B9BD5;
+
+
+  /* ================================
+     FONTS
+     ================================ */
+
+  --font-heading: "Cormorant Garamond", serif;
+  --font-body: "Manrope", sans-serif;
+  --font-heading2: "Playfair Display", serif;
+}
